@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - npm run build
- env:
-    - CODECOV_TOKEN=73d17fd5-d589-4879-b0e1-b483ac18f94b
+env:
+  - CODECOV_TOKEN=73d17fd5-d589-4879-b0e1-b483ac18f94b
 on:
   branch: master
